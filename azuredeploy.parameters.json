@@ -1,0 +1,27 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "adminUsername": {
+            "value": "" // TODO: Fill in parameter value
+        },
+        "adminPassword": {
+            "value": "" // TODO: Fill in parameter value
+        },
+        "domainName": {
+            "value": "" // TODO: Fill in parameter value
+        },
+        "dnsPrefix": {
+            "value": "" // TODO: Fill in parameter value
+        },
+        "windowsserver": {
+            "value": "2016-Datacenter"
+        },
+        "_artifactsLocation": {
+            "value": "https://raw.githubusercontent.com/mikepfeiffer/azure-domain-controller/master/"
+        },
+        "_artifactsLocationSasToken": {
+            "value": ""
+        }
+    }
+}
